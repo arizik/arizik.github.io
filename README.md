@@ -1,2 +1,2 @@
-# arizik.github2.io
+# arizik2.github.io
 További gyakorlás
