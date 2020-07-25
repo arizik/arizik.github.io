@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    <h1>
+        Táblázatkészítés
+    </h1>
+    <ul>
+        <li>
+            <a href="/index.html">Home</a>
+        </li>
+        <li>
+            <a href="/pages/orders.html">orders</a>
+        </li>
+        <li>
+            <a href="/about.html">About</a>
+        </li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nap</th>
+                <th>Nyitás</th>
+                <th>Zárás</th>
+            </tr>
+        </thead>
+        <tbody>
+            <caption>
+            <h3>Nyitvatartási idő</h3>
+        </caption>
+        <tr>
+            <td>Hétfőtől péntekig</td>
+            <td rowspan="2"><i>09:00</i></td>
+            <td><i>21:00</i></td>
+        </tr>
+        <tr>
+            <td>Szombat</td>
+            <td><i>18:00</i></td>
+        </tr>
+        <tr>
+            <td>Vasárnap</td>
+            <td colspan="2"><i>zárva</i></td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">&copy; 2020</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
